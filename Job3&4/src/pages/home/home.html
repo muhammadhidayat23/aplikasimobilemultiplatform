@@ -1,0 +1,16 @@
+<ion-header>
+        <ion-navbar>
+        <ion-title>
+        Home Page
+        </ion-title>
+        </ion-navbar>
+       </ion-header>
+       <ion-content padding>
+        <ion-input placeholder="What's on your mind?"
+       [(ngModel)]="status"></ion-input>
+        <p>
+        <button ion-button (click)="openAboutPage()" block>Post
+       Status</button>
+       </p>
+       </ion-content>
+       
